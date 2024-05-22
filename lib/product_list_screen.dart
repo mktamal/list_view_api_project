@@ -97,7 +97,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
   Widget _buildProductItem(ProductModel product) {
     return ListTile(
       /*leading: Image.network(
-        product.image,
+        product.image??'',
         height: 60,
         width: 60,
       ),*/
